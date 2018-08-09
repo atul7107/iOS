@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>test.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>BD3347C9DE856F66DB5342D4FD1ACD20893C7B6B</string>
+				<key>dateExpires</key>
+				<string>08/08/19</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>4CYMJA762C.com.sapientnitro.mobile.in.lvm</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>4CYMJA762C</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>4CYMJA762C.com.sapientnitro.mobile.in.lvm</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>test.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>576131cb-02ae-448a-ac52-d06a433e541e</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.sapientnitro.mobile.in.lvm</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>4CYMJA762C</string>
+				<key>name</key>
+				<string>Sapient Corporation</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
