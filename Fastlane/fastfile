@@ -1,9 +1,5 @@
-fastlane_version "2.24.0"
-
-default_platform :ios
-
-platform :ios do
-   lane :example do
-      puts("this is my first 🚀 lane")
-   end
+lane :beta do
+  # ...
+  build_app
+  hockey(api_token: "676d0b1a5c4f4d82b069208abfbc84d9")
 end
