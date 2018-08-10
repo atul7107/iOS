@@ -1,5 +1,13 @@
 lane :beta do
   # ...
   build_app
-  hockey(api_token: "676d0b1a5c4f4d82b069208abfbc84d9")
+  hockey(
+    api_token: "676d0b1a5c4f4d82b069208abfbc84d9",
+    create_update: true,
+    public_identifier: "....",
+    bundle_short_version: "1.0.2",
+    bundle_version: "1.0.2.145",
+    ipa: "/.jenkins/workspace/iOStesting-10aug/test/build/test.ipa",
+    notes: "Changelog"
+)
 end
