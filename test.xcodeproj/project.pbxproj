@@ -439,10 +439,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sapientnitro.mobile.in.lvm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sapient.mobile.cargill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7df307d2-aa72-4e5c-b8c6-eaa7c624aa50";
-				PROVISIONING_PROFILE_SPECIFIER = "LVM App Distribution Profile";
+				PROVISIONING_PROFILE = "f27e628a-cf3d-44e3-a7a8-618dc1e59d0c";
+				PROVISIONING_PROFILE_SPECIFIER = "Cargill In House Dist Profile";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,10 +462,10 @@
 					"@executable_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sapientnitro.mobile.in.lvm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sapient.mobile.cargill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7df307d2-aa72-4e5c-b8c6-eaa7c624aa50";
-				PROVISIONING_PROFILE_SPECIFIER = "LVM App Distribution Profile";
+				PROVISIONING_PROFILE = "f27e628a-cf3d-44e3-a7a8-618dc1e59d0c";
+				PROVISIONING_PROFILE_SPECIFIER = "Cargill In House Dist Profile";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
