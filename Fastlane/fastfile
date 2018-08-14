@@ -1,13 +1,20 @@
-lane :beta do
-  # ...
-  build_app
-  hockey(
-    api_token: "676d0b1a5c4f4d82b069208abfbc84d9",
-    create_update: true,
-    public_identifier: "com.sapient.mobile.cargill",
-    bundle_version: "1.0.1.0",
-    ipa: "/.jenkins/workspace/iOStesting-10aug/test/build/test.ipa",
-    notes: "Changelog"
-    timeout: "300"
-)
+default_platform(:ios)
+  lane :beta do
+      ensure_git_status_clean
+      increment_build_number
+      commit_version_bump
+      add_git_tag
+      build_app(
+          scheme: "test",
+          clean: true
+          )
+      upload_to_testflight(
+          app_identifier: "com.sapient.mobile.cargill"
+          )
+  end
+
+  lane :screenshots do
+    capture_screenshots(scheme: "test")
+    frame_screenshots(white: true)
+  end
 end
