@@ -8,5 +8,6 @@ lane :beta do
     bundle_version: "1.0.1.0",
     ipa: "/.jenkins/workspace/iOStesting-10aug/test/build/test.ipa",
     notes: "Changelog"
+    timeout: "300"
 )
 end
