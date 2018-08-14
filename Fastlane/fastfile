@@ -17,4 +17,3 @@ default_platform(:ios)
     capture_screenshots(scheme: "test")
     frame_screenshots(white: true)
   end
-end
